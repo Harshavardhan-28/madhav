@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=Q1
+comment1.params=rows
+comment1.target=void\ printFloydTriangle(int)
+numComments=2

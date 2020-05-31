@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=SI
+comment1.params=pr\ ti\ ra
+comment1.target=void\ init(int,\ int,\ double)
+comment2.params=
+comment2.target=double\ calc()
+comment3.params=
+comment3.target=void\ main()
+numComments=4

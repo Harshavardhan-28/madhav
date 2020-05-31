@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=student_Q7
+comment1.params=name\ r\ c\ m\ b\ p\ g
+comment1.target=void\ main(java.lang.String,\ int,\ int,\ int,\ int,\ int,\ int)
+numComments=2
