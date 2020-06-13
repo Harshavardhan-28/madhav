@@ -22,7 +22,11 @@ public class Q8
     }
     public static void main(String arg[])
     {
-        check("success", 's');
-        check("computer");
+        Q8 obj= new Q8();
+        obj.litration("hello gj");
     }
 }
+        
+      
+    
+    
