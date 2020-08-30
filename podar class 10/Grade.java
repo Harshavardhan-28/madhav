@@ -28,7 +28,7 @@ public class Grade
     public static void main ()
     {
         Grade grades = new Grade ();
-        grades.input ("Rhea Suresh", 95.4);
+        grades.input ("Madhav Singh", 95.4);
         grades.calculate ();
     }
 }
