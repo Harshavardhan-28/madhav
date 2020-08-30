@@ -2,7 +2,7 @@ public class Account
 {
     double balance;
     long account_number;
-    // We take a default constructor because the question has specified for an initialize methood
+    // We take a default constructor because the question has specified for an initialize method
     public Account ()// Default constructor
     {
         balance = 0.0;
