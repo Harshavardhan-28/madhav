@@ -1,4 +1,4 @@
-public class MINE 
+public class basicprogstructure
 {
     MINE()
     {
