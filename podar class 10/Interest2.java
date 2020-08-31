@@ -9,7 +9,7 @@ public class Interest2
         Scanner sc = new Scanner (System.in);
         System.out.println ("Enter the Principal Amount: ");
         p = sc.nextDouble ();
-        System.out.println ("Enter the number of yesrs: ");
+        System.out.println ("Enter the number of years: ");
         t = sc.nextDouble ();
         System.out.println ("Enter 1 if you are applying for a fixed deposit or enter 2 for a recurring deposit");
         acc_type = sc.nextInt ();
