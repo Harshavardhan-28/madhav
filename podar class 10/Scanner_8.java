@@ -30,7 +30,7 @@ class Scanner_8//class name
         obj.display();
     }
 }
-/** Name : Khushi 
+/** Name : Madhav 
  *  Start date : 27th July
  *  End date : 27th July 
  *  End time : 00:15 a.m.
