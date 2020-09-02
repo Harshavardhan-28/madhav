@@ -1,4 +1,4 @@
-// A factorian or special number is a number which is equal to the sum of te factorial of its digit.
+// A factorian or special number is a number which is equal to the sum of the factorial of its digit.
 // Write a program to check if a number is a factorian or not
 import java.util.Scanner;
 public class SpecialNumber
