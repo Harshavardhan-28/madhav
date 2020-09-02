@@ -36,8 +36,8 @@ public class Student
     public static void main ()
     {
         Student obj; 
-        obj = new Student ("Rhea Sebastin", 14, 98.00, 95.00, 92.00);
-        obj.accept ("Rhea Sebastin", 14, 98.00, 95.00, 92.00);
+        obj = new Student ("Madhav Singh", 14, 98.00, 95.00, 92.00);
+        obj.accept ("Madhav Singh", 14, 98.00, 95.00, 92.00);
         obj.calculate ();
         obj.display ();
     }
