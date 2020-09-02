@@ -1,37 +1,28 @@
 // The series is: 1 + (1+2) +(1+2+3) + (1+2+3+4) + .... (1+2+3+4+...+n)
 import java.util.Scanner;
-public class Series5
+class series
 {
     int n;
-    void getData ()
+    void input()
     {
-        Scanner sc = new Scanner (System.in);
-        System.out.println ("Enter the value of n: ");
-        n = sc.nextInt ();
+        Scanner sc=new Scanner(System.in);
+        n=sc.nextInt();
     }
-    
-    int sum1 (int m)
+    void compute()
     {
-        int s =0;
-        for (int j = 1; j<=m; j++) 
-             s = s+j;
-        return s;
-    }
-    
-    void calculate ()
-    {
-        int sum = 0;
-        for (int i = 1; i<=n; i++)
+        int s=1;
+        int sum=1;
+        for(int i=2;i<=n;i++)
         {
-            sum = sum + sum1 (i);
+            s=s+i;
+            sum=sum+s;
         }
-        System.out.println ("The sum of the series is " +sum);
+        System.out.println("the sum of series="+sum);
     }
-    
-    public static void main ()
+    public static void main()
     {
-        Series5 obj = new Series5 ();
-        obj.getData ();
-        obj.calculate ();
+        series ob=new series();
+        ob.input();
+        ob.compute();
     }
 }
